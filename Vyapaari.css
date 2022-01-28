@@ -1,0 +1,100 @@
+body{
+    background: url("Images/vyapaaribg2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Baloo Bhai;
+}
+.vbar{
+text-align: center;
+display: inline-block;
+position: absolute;
+top: 2px;
+left: 5px;
+}
+.mid{    
+    display: flex;
+
+    height: 100%;
+    margin: 25px auto;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    }
+.btnbar{
+    padding: 5pt;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+}
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+.navbar li a {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: rgb(36, 36, 36);
+    background-color: transparent;
+    
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: Baloo Bhai;
+    font-size: 15px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btnbar .btn:hover, .btnbar .btn:active{
+    opacity: 45%;
+    border-radius: 15px;
+}
+.btnsub{
+    color: black;
+    font-family: cursive;
+    border-radius: 15px;
+    width: 100px;
+    height: 45px;
+    background: transparent;
+    font-size: 15px;
+}
+.btnres{
+    font-family: cursive;
+    border-radius: 15px;
+    width: 100px;
+    height: 45px;
+    background: transparent;
+    font-size: 15px;
+}
+.frm2{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Baloo Bhai', cursive;
+    font-style: italic;
+
+}
+.frm{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Baloo Bhai', cursive;
+    font-style: italic;
+    border-radius: 40pt;
+    background: transparent;
+}
